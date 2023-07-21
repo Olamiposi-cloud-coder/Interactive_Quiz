@@ -14,7 +14,7 @@ Interactive Quiz is a web application that presents users with a series of multi
 
 ## Live Demo
 
-Check out the live demo [here](#) (Add the link to your deployed quiz).
+Check out the live demo [https://interactive-quiz-theta.vercel.app/](#).
 
 ## Installation and Setup
 
