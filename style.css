@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    /* Set your desired background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    padding: 20px;
+}
+
+#question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+}
+
+#options label {
+    margin-bottom: 5px;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive Styles ... (The rest of your responsive styles) */
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    #quiz-container {
+        padding: 10px;
+        /* Set maximum width to fit the screen */
+        max-width: 100%;
+    }
+
+    #options {
+        /* On smaller screens, change the flex direction to row */
+        flex-direction: row;
+        /* Adjust the height of options container */
+        height: auto;
+        /* Limit the width of each option to fit the screen */
+        max-width: 200px;
+        /* Center the options horizontally */
+        justify-content: center;
+        /* Wrap the options to the next line if they don't fit */
+        flex-wrap: wrap;
+    }
+
+    #options label {
+        /* Increase the margin to create space between options */
+        margin: 5px;
+    }
+
+    #submit-btn {
+        width: 100%;
+    }
+}
